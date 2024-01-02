@@ -1,0 +1,80 @@
+.Main-box{
+  /* background-color: aquamarine; */
+  height: 100vh;
+}
+.container {
+    text-align: center;
+    margin: 25px auto;
+    padding: 20px;
+    width: 60%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+   
+  }
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  .answerButton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .answerButton:hover {
+    background-color: #f3e1e1;
+  }
+   
+  #Restart-Quiz{
+    width: 30%;
+    padding: 10px 10px;
+    border: 2px solid black;
+    
+  }
+  .Gk-Quiz {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    border:2px solid black;
+    box-shadow: 2px 2px 3px 5px lightgrey;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 2rem;
+  }
+  .reg-symbol{
+    background-color: aqua;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 2rem;
+  }
+  @keyframes example1 {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  @keyframes example {
+    1%   {color:red; left:0px; top:0px;}
+    13%  {color:rgb(252, 45, 34); left:200px; top:0px;}
+    25%  {color:rgb(34, 255, 0); left:200px; top:0px;}
+    35%  {color:yellow; left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
+  }
+  

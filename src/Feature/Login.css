@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Login-main-page {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("../../assests/overhead-shot-comfortable-workplace-with-notebook-white-desk-background_67155-3392.avif "); */
+    background-image: url("../../src/Component/neon-quiz-sign-glow-question-mark-lighting-frame_53562-12652.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Login-page {
+    width: 29%;
+    /* height:45%; */
+    border: 2px solid aliceblue;
+    position: relative;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(229, 218, 239);
+    border-radius: 5px;
+    animation-name:login;
+    animation-duration: 4s;
+    animation-delay: -2s;
+  }
+  /* @keyframes login {
+    0%   {background-color:rgb(196, 176, 176); left:0px; top:0px;}
+    25%  {background-color:yellow; left:100px; right:90px;}
+    50%  {background-color:rgb(153, 111, 32); left:100px; right:100px;}
+    75%  {background-color:green; left:0px; right:100px;}
+    100% {background-color:rgb(226, 206, 206); left:0px; top:0px;}
+  } */
+  .login-tag {
+    /* color: blueviolet; */
+    color: rgb(3, 104, 192);
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .input-box1 {
+    width: 120%;
+    /* padding: 2px 50px; */
+    padding: 0.5rem;
+  }
+  /* .forget-pasword{
+      margin-left: 180px;
+     font-size: 20px;
+    
+  } */
+  .forget-paswordlogin-bt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    margin: 0.5rem;
+    color: aliceblue;
+  }
+  .forget-pasword {
+    /* background-color: red; */
+    width: 100%;
+    font-size: 17px;
+    text-align: start;
+    padding: 0.5rem 0;
+    color: blue;
+  }
+  .forget-pasword1{
+      color: rgb(9, 13, 240);
+      text-decoration: underline;
+  }
+  .login-bt {
+    /* margin-left: 90px; */
+    /* margin-top: 29px; */
+    padding: 8px 30px;
+    border: none;
+    color: aliceblue;
+    background-color: blue;
+    font-size: 21px;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  #h-r {
+    width: 100%;
+    /* margin-top: 25px; */
+    margin-bottom: 25px;
+  }
+  .r-now {
+    color: rgb(29, 85, 205);
+    padding-bottom: 15px;
+    padding-top: 5px;
+    text-decoration: underline;
+    font-size: 1.3rem;
+  }
+  .error-message{
+    color: red;
+  }
+  
+  @media (max-width: 882px) {
+    .Login-page {
+      width: 50%;
+    }
+  }
+  @media (max-width: 520px) {
+      .Login-page {
+        width: 100%;
+        /* background-color: aquamarine; */
+      }
+    }
+  @media (max-width: 456px) {
+    .Login-page {
+      width: 100%;
+    }
+  }
+  

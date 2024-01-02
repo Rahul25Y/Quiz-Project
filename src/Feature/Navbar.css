@@ -1,0 +1,40 @@
+
+.navbar {
+    background-color: #946868;
+    padding: 15px; 
+  }
+  
+  .navbar-list {
+    list-style: none; 
+    display: flex; 
+    justify-content: space-around; 
+    padding: 0; 
+  }
+  
+  .navbar-item {
+    margin: 0 10px; 
+    animation-name: example;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+  }
+  .navbar-item2{
+    padding: 5px 20px;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid rgb(245, 243, 243);
+  }
+  .navbar-item a {
+    text-decoration: none; 
+    color: #fff; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 20px;
+   
+   /* border: 2px solid black; */
+  }
+  @keyframes example {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    50%  {color:blue; left:200px; top:200px;}
+    75%  {color:green; left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
+  }
